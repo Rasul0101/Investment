@@ -411,12 +411,47 @@
         cursor: pointer;
       }
       .food {
+        cursor: pointer;
         position: relative;
         width: 380px;
         height: 240px;
+        &:hover {
+          .yellow {
+            height: 140px;
+          }
+          .bottom {
+            height: 140px;
+          }
+          .text {
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 44px;
+            letter-spacing: 2.08px;
+          }
+        }
         img {
           width: 100%;
           height: 100%;
+        }
+        .yellow {
+          position: absolute;
+          left: 0;
+          bottom: 0px;
+          height: 0;
+          clip-path: polygon(16% 0, 12% 0, 0 30%, 0 39%);
+          background-color: #f5b458;
+          width: 100%;
+          transition: all 0.4s ease-in-out;
+        }
+        .bottom {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 0;
+          background-color: #1a2e51;
+          clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 99%, 0% 38%);
+          transition: all 0.4s ease-in-out;
         }
         .text {
           position: absolute;
@@ -429,13 +464,29 @@
           line-height: 26px;
           letter-spacing: 0.72px;
           text-transform: uppercase;
+          transition: all 0.4s ease-in-out;
         }
       }
       .agriculture {
+        cursor: pointer;
         position: relative;
         width: 380px;
         height: 384px;
         overflow: hidden;
+        &:hover {
+          .yellow {
+            height: 140px;
+          }
+          .bottom {
+            height: 140px;
+          }
+          .text {
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 44px;
+            letter-spacing: 2.08px;
+          }
+        }
         .overlay {
           position: absolute;
           width: 100%;
@@ -452,6 +503,26 @@
           width: 100%;
           height: 100%;
         }
+        .yellow {
+          position: absolute;
+          left: 0;
+          bottom: 0px;
+          height: 0;
+          clip-path: polygon(16% 0, 12% 0, 0 30%, 0 39%);
+          background-color: #f5b458;
+          width: 100%;
+          transition: all 0.4s ease-in-out;
+        }
+        .bottom {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 0;
+          background-color: #1a2e51;
+          clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 99%, 0% 38%);
+          transition: all 0.4s ease-in-out;
+        }
         .text {
           position: absolute;
           left: 36px;
@@ -463,13 +534,29 @@
           line-height: 26px;
           letter-spacing: 0.72px;
           text-transform: uppercase;
+          transition: all 0.4s ease-in-out;
         }
       }
       .production {
+        cursor: pointer;
         position: relative;
         width: 380px;
         height: 240px;
         overflow: hidden;
+        &:hover {
+          .yellow {
+            height: 140px;
+          }
+          .bottom {
+            height: 140px;
+          }
+          .text {
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 44px;
+            letter-spacing: 2.08px;
+          }
+        }
         .overlay {
           position: absolute;
           width: 100%;
@@ -486,6 +573,26 @@
           width: 100%;
           height: 100%;
         }
+        .yellow {
+          position: absolute;
+          left: 0;
+          bottom: 0px;
+          height: 0;
+          clip-path: polygon(16% 0, 12% 0, 0 30%, 0 39%);
+          background-color: #f5b458;
+          width: 100%;
+          transition: all 0.4s ease-in-out;
+        }
+        .bottom {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 0;
+          background-color: #1a2e51;
+          clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 99%, 0% 38%);
+          transition: all 0.4s ease-in-out;
+        }
         .text {
           position: absolute;
           left: 36px;
@@ -497,14 +604,30 @@
           line-height: 26px;
           letter-spacing: 0.72px;
           text-transform: uppercase;
+          transition: all 0.4s ease-in-out;
         }
       }
       .manufacturing {
+        cursor: pointer;
         position: relative;
         width: 380px;
         height: 384px;
         overflow: hidden;
         margin-top: -144px;
+        &:hover {
+          .yellow {
+            height: 140px;
+          }
+          .bottom {
+            height: 140px;
+          }
+          .text {
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 44px;
+            letter-spacing: 2.08px;
+          }
+        }
         .overlay {
           position: absolute;
           width: 100%;
@@ -525,38 +648,56 @@
           position: absolute;
           left: 0;
           bottom: 0px;
-          height: 140px;
+          height: 0;
           clip-path: polygon(16% 0, 12% 0, 0 30%, 0 39%);
           background-color: #f5b458;
           width: 100%;
+          transition: all 0.4s ease-in-out;
         }
         .bottom {
           position: absolute;
           left: 0;
           bottom: 0;
           width: 100%;
-          height: 140px;
+          height: 0;
           background-color: #1a2e51;
           clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 99%, 0% 38%);
-          .text {
-            position: absolute;
-            left: 36px;
-            bottom: 39px;
-            color: #fff;
-            text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
-            font-size: 26px;
-            font-weight: 600;
-            line-height: 44px;
-            letter-spacing: 2.08px;
-            text-transform: uppercase;
-          }
+          transition: all 0.4s ease-in-out;
+        }
+        .text {
+          position: absolute;
+          left: 36px;
+          bottom: 39px;
+          color: #fff;
+          text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 26px;
+          letter-spacing: 0.72px;
+          text-transform: uppercase;
+          transition: all 0.3s ease-in-out;
         }
       }
       .pharmaceuticals {
+        cursor: pointer;
         position: relative;
         width: 380px;
         height: 240px;
         overflow: hidden;
+        &:hover {
+          .yellow {
+            height: 140px;
+          }
+          .bottom {
+            height: 140px;
+          }
+          .text {
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 44px;
+            letter-spacing: 2.08px;
+          }
+        }
         .overlay {
           position: absolute;
           width: 100%;
@@ -573,6 +714,26 @@
           width: 100%;
           height: 100%;
         }
+        .yellow {
+          position: absolute;
+          left: 0;
+          bottom: 0px;
+          height: 0;
+          clip-path: polygon(16% 0, 12% 0, 0 30%, 0 39%);
+          background-color: #f5b458;
+          width: 100%;
+          transition: all 0.4s ease-in-out;
+        }
+        .bottom {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 0;
+          background-color: #1a2e51;
+          clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 99%, 0% 38%);
+          transition: all 0.4s ease-in-out;
+        }
         .text {
           position: absolute;
           left: 36px;
@@ -584,14 +745,30 @@
           line-height: 26px;
           letter-spacing: 0.72px;
           text-transform: uppercase;
+          transition: all 0.4s ease-in-out;
         }
       }
       .logistics {
+        cursor: pointer;
         position: relative;
         width: 380px;
         height: 384px;
         overflow: hidden;
         margin-top: -144px;
+        &:hover {
+          .yellow {
+            height: 140px;
+          }
+          .bottom {
+            height: 140px;
+          }
+          .text {
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 44px;
+            letter-spacing: 2.08px;
+          }
+        }
         .overlay {
           position: absolute;
           width: 100%;
@@ -608,6 +785,26 @@
           width: 100%;
           height: 100%;
         }
+        .yellow {
+          position: absolute;
+          left: 0;
+          bottom: 0px;
+          height: 0;
+          clip-path: polygon(16% 0, 12% 0, 0 30%, 0 39%);
+          background-color: #f5b458;
+          width: 100%;
+          transition: all 0.4s ease-in-out;
+        }
+        .bottom {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 0;
+          background-color: #1a2e51;
+          clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 99%, 0% 38%);
+          transition: all 0.4s ease-in-out;
+        }
         .text {
           position: absolute;
           left: 36px;
@@ -619,6 +816,7 @@
           line-height: 26px;
           letter-spacing: 0.72px;
           text-transform: uppercase;
+          transition: all 0.4s ease-in-out;
         }
       }
     }
