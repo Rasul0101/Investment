@@ -1,0 +1,120 @@
+// Main Start
+
+// Page Head Start
+.page-head {
+  padding: 12px 0;
+  .container {
+    .page-name {
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: 1.92px;
+      text-transform: uppercase;
+      .main {
+        color: #b4b8bf;
+      }
+      .slash {
+        color: #f5b458;
+        margin: 0 5px;
+      }
+      .active {
+        color: #f5b458;
+      }
+    }
+  }
+}
+// Page Head Start
+
+// Projects Page Main Start
+.projects-main {
+  padding: 68px 0 110px;
+  .container {
+    .head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 70px;
+      .title {
+        color: #1a2e51;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 2.16px;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        img {
+          width: 22px;
+          height: 26px;
+          margin-right: 9px;
+        }
+      }
+      .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        a {
+          display: block;
+          margin-right: 40px;
+          color: #1a2e51;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 24px;
+          letter-spacing: 0.96px;
+          text-transform: uppercase;
+          transition: all 0.4s ease-in-out;
+          padding: 0 8px;
+          &:nth-last-child(1) {
+            margin-right: 0;
+          }
+          &:hover {
+            background-color: #f5b458;
+          }
+        }
+        .active {
+          background-color: #f5b458;
+        }
+      }
+    }
+    .cards {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .card {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 48px;
+        position: relative;
+        .overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 550px;
+          height: 359px;
+          background-color: rgba(0, 0, 0, 0.1);
+        }
+        img {
+          cursor: pointer;
+          width: 550px;
+          height: 359px;
+          margin-bottom: 16px;
+        }
+        .text {
+          cursor: pointer;
+          color: #000;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+}
+// Projects Page Main End
+
+// Main End
