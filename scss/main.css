@@ -1367,6 +1367,132 @@ html {
   margin-bottom: 0;
 }
 
+.page-head {
+  padding: 12px 0;
+}
+.page-head .container .page-name {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 1.92px;
+  text-transform: uppercase;
+}
+.page-head .container .page-name .main {
+  color: #b4b8bf;
+}
+.page-head .container .page-name .slash {
+  color: #f5b458;
+  margin: 0 5px;
+}
+.page-head .container .page-name .active {
+  color: #f5b458;
+}
+
+.mission {
+  padding: 80px 0 120px;
+}
+.mission .container .head {
+  margin-bottom: 70px;
+}
+.mission .container .head .title {
+  color: #1a2e51;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+.mission .container .head .title img {
+  width: 22px;
+  height: 26px;
+  margin-right: 9px;
+}
+.mission .container .our-mission {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.mission .container .our-mission img {
+  width: 550px;
+  height: 380px;
+}
+.mission .container .our-mission .info-side {
+  width: 50%;
+  padding-left: 50px;
+}
+.mission .container .our-mission .info-side .title {
+  color: #465061;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.mission .container .our-mission .info-side .text {
+  color: #465061;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.8px;
+  margin-bottom: 28px;
+}
+.mission .container .our-mission .info-side .text:nth-last-child(1) {
+  margin-bottom: 0;
+}
+.mission .container .our-mission .info-side .text span {
+  font-weight: 600;
+}
+.mission .container .our-values {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.mission .container .our-values .info-side {
+  width: 50%;
+  padding-right: 50px;
+}
+.mission .container .our-values .info-side .title {
+  color: #465061;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.mission .container .our-values .info-side .text {
+  color: #465061;
+  font-family: " Fira Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.8px;
+  margin-bottom: 20px;
+}
+.mission .container .our-values .info-side .text:nth-last-child(1) {
+  margin-bottom: 0;
+}
+.mission .container .our-values .info-side .text span {
+  color: #465061;
+  font-family: " Fira Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.8px;
+  margin-bottom: 20px;
+}
+.mission .container .our-values img {
+  width: 550px;
+  height: 549px;
+}
+
 .header-main .container .nav-bar {
   padding: 36px 0;
   border-bottom: 1px solid #dce0e5;
