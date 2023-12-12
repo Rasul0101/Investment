@@ -1,0 +1,88 @@
+// Main Start
+
+// Page Head Start
+// Page Head End
+
+// Criteras Section Start
+.criterias {
+  padding: 80px 0 140px;
+  .container {
+    .head {
+      margin-bottom: 70px;
+      .title {
+        color: #1a2e51;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 2.16px;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        img {
+          width: 22px;
+          height: 26px;
+          margin-right: 9px;
+        }
+      }
+    }
+    .criterias-inner {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .image-side {
+        width: 550px;
+        height: 450px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .info-side {
+        width: 50%;
+        padding-left: 60px;
+        .title {
+          color: #465061;
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 32px;
+          letter-spacing: 1.6px;
+          text-transform: uppercase;
+          margin-bottom: 28px;
+        }
+        .content {
+          display: flex;
+          flex-direction: column;
+
+          .list-item {
+            display: flex;
+            margin-bottom: 28px;
+            &:nth-last-child(1) {
+              margin-bottom: 0;
+            }
+            span {
+              color: #465061;
+              font-family: "Fira Sans", sans-serif;
+              font-size: 20px;
+              font-weight: 400;
+              line-height: 30px;
+              letter-spacing: 0.8px;
+              margin-right: 24px;
+            }
+            .text {
+              color: #465061;
+              font-family: "Fira Sans", sans-serif;
+              font-size: 20px;
+              font-weight: 400;
+              line-height: 30px;
+              letter-spacing: 0.8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// Criteras Section End
+
+// Main End
