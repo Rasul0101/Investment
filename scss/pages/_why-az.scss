@@ -1,0 +1,276 @@
+// Main Start
+
+// Page Head Start
+// Page Head End
+
+// Why-az Section Start
+.why-az {
+  padding: 80px 0 48px;
+  .container {
+    .head {
+      margin-bottom: 48px;
+      .title {
+        color: #1a2e51;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 2.16px;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        img {
+          width: 22px;
+          height: 26px;
+          margin-right: 9px;
+        }
+      }
+    }
+    .text {
+      color: #465061;
+      font-family: "Fira Sans", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0.8px;
+    }
+  }
+}
+// Why-az Section End
+
+// AZ with number Section Start
+.az-with-numbers {
+  background-color: #eff1f2;
+  padding: 80px 0;
+  .container {
+    .numbers-in {
+      display: flex;
+      justify-content: space-between;
+      .title {
+        color: #465061;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 1.68px;
+        text-transform: uppercase;
+      }
+      .info-side {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 75%;
+        .content {
+          width: 27%;
+          padding-bottom: 12px;
+          border-bottom: 1px solid #f5b458;
+          margin-bottom: 68px;
+          &:nth-last-child(1) {
+            margin-bottom: 0;
+          }
+          &:nth-last-child(2) {
+            margin-bottom: 0;
+          }
+          &:nth-last-child(3) {
+            margin-bottom: 0;
+          }
+          .title {
+            color: #465061;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.48px;
+            text-transform: uppercase;
+            margin-bottom: 14px;
+          }
+          .text {
+            color: #465061;
+            font-family: "Fira Sans", sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+// AZ with number Section End
+
+// Legislation Section Start
+.legislation {
+  padding: 70px 0 40px;
+  .container {
+    .legislation-in {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .content {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-right: 50px;
+        .title {
+          color: #465061;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 26px;
+          letter-spacing: 1.08px;
+          text-transform: uppercase;
+          margin-bottom: 28px;
+        }
+        .content-in {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 36px;
+          .text {
+            color: #465061;
+            font-family: "Fira Sans", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0.36px;
+            margin-bottom: 20px;
+          }
+          .list-item {
+            display: flex;
+            margin-bottom: 20px;
+            &:nth-last-child(1) {
+              margin-bottom: 0;
+            }
+            span {
+              color: #465061;
+              font-family: "Fira Sans", sans-serif;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 28px;
+              letter-spacing: 0.36px;
+              margin-right: 24px;
+            }
+            p {
+              color: #465061;
+              font-family: "Fira Sans", sans-serif;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 28px;
+              letter-spacing: 0.36px;
+            }
+          }
+        }
+        .download-files {
+          display: flex;
+          flex-direction: column;
+          .file {
+            color: #909399;
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            &:nth-last-child(1) {
+              margin-bottom: 0;
+            }
+            i {
+              font-size: 12px;
+              margin-right: 20px;
+            }
+            p {
+              font-family: "Fira Sans", sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 26px;
+              letter-spacing: 0.32px;
+            }
+          }
+        }
+      }
+      .image-side {
+        width: 550px;
+        height: 627px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+// Legislation Section End
+
+// Public Investment Section Start
+.public-investment {
+  padding: 40px 0 140px;
+  .container {
+    .public-inner {
+      display: flex;
+      flex-direction: column;
+      .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 64px;
+        &:nth-last-child(1) {
+          margin-bottom: 0;
+        }
+        .title {
+          color: #465061;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 26px;
+          letter-spacing: 1.08px;
+          text-transform: uppercase;
+          margin-bottom: 28px;
+        }
+        .content-in {
+          display: flex;
+          flex-direction: column;
+          .text {
+            color: #465061;
+            font-family: "Fira Sans", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0.36px;
+            margin-bottom: 20px;
+          }
+          .list-item {
+            display: flex;
+            margin-bottom: 24px;
+            &:nth-last-child(1) {
+              margin-bottom: 0;
+            }
+            span {
+              color: #465061;
+              font-family: "Fira Sans", sans-serif;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 28px;
+              letter-spacing: 0.36px;
+              margin-right: 24px;
+            }
+            p {
+              color: #465061;
+              font-family: "Fira Sans", sans-serif;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 28px;
+              letter-spacing: 0.36px;
+            }
+          }
+        }
+      }
+      .public-image {
+        width: 100%;
+        height: 520px;
+        margin-bottom: 64px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+// Public Investment Section End
+
+// Main End
